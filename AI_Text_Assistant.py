@@ -3,7 +3,7 @@ import re
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 app=FastAPI()
-deepseek_key="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"
+deepseek_key="your open router deepseek key"
 chats=[]
 while True:
     user_message=input(">>>")
